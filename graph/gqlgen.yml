@@ -9,10 +9,10 @@ exec:
   filename: generated.go
 models:
   Person:
-    model: github.com/techyvish/gql-gen-test/graph/models.Person
+    model: github.com/antoooks/go-graphql-tutorial/models.Person
   Pet:
-    model: github.com/techyvish/gql-gen-test/graph/models.Pet
+    model: github.com/antoooks/go-graphql-tutorial/models.Pet
 resolver:
   filename: resolver.go
   type: Resolver
-  autobind: []
+autobind: []
